@@ -1,0 +1,19 @@
+marie.tiers@info0115:~/Documents/R3-09_crypto$ ll
+total 28
+drwxr-xr-x 4 marie.tiers utilisateurs du domaine  4096 18 sept. 14:25  TP1_fondamentaux
+-rw-r--r-- 1 marie.tiers utilisateurs du domaine 23883 18 sept. 14:36  TP2-Sujet.ipynb
+drwxr-xr-x 2 marie.tiers utilisateurs du domaine   159 18 sept. 14:25 'TP3 - Chiffrement bloc-20260918'
+marie.tiers@info0115:~/Documents/R3-09_crypto$ ls -Q
+"TP1_fondamentaux"  "TP2-Sujet.ipynb"  "TP3 - Chiffrement bloc-20260918"
+marie.tiers@info0115:~/Documents/R3-09_crypto$ ls -A
+ .ipynb_checkpoints   TP2-Sujet.ipynb
+ TP1_fondamentaux    'TP3 - Chiffrement bloc-20260918'
+marie.tiers@info0115:~/Documents/R3-09_crypto$ python -m venv .venv prompt=crypto
+marie.tiers@info0115:~/Documents/R3-09_crypto$ ls -A
+ .ipynb_checkpoints   TP1_fondamentaux  'TP3 - Chiffrement bloc-20260918'
+'prompt=crypto'       TP2-Sujet.ipynb    .venv
+marie.tiers@info0115:~/Documents/R3-09_crypto$ source .venv/bin/activate
+(.venv) marie.tiers@info0115:~/Documents/R3-09_crypto$ which python
+~/Documents/R3-09_crypto/.venv/bin/python
+(.venv) marie.tiers@info0115:~/Documents/R3-09_crypto$ python -m pip install jupyter matplotlib cryptography
+

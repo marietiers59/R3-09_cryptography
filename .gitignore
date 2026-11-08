@@ -1,0 +1,17 @@
+# ─── Supports des enseignants : restent sur mon PC ───
+*.pdf
+TP*/
+
+# ─── Clés privées, même de test ───
+*.pem
+
+# ─── Fichiers générés en exécutant la synthèse ───
+clair.txt
+long.txt
+*.bin
+
+# ─── Fichiers techniques ───
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
