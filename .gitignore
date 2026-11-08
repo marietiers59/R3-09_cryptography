@@ -1,7 +1,3 @@
-# ─── Supports des enseignants : restent sur mon PC ───
-*.pdf
-TP*/
-
 # ─── Clés privées, même de test ───
 *.pem
 
